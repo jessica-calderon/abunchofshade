@@ -650,6 +650,9 @@ section {
 .testimonials {
   background-color: #280a2c;
 }
+.testimonials .testimonials-title {
+  color: white;
+}
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
