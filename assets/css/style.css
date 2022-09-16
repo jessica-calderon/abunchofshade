@@ -150,6 +150,7 @@ h6 {
 
 #header .logo a {
   color: #fff;
+  font-size: 20px;
 }
 
 #header .logo img {
@@ -229,8 +230,6 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 0 3px;
-  font-size: 15px;
-  font-weight: 600;
   white-space: nowrap;
   transition: 0.3s;
   color: white;
@@ -780,14 +779,13 @@ section {
   margin-bottom: 20px;
 }
 .portfolio-carousel {
-  width: 500px;
+  width: auto;
   max-height: 400px;
 }
 .carousel-inner img {
   margin: auto;
   max-height: 400px;
 }
-
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
