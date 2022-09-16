@@ -31,6 +31,12 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+/*--------------------------------------------------------------
+# Custom Indent for List
+--------------------------------------------------------------*/
+.customIndent {
+  margin-left: 25px;
+}
 
 /*--------------------------------------------------------------
 # Preloader
@@ -818,7 +824,7 @@ section {
 
 .testimonials .testimonial-item {
   box-sizing: content-box;
-  min-height: 320px;
+  /* min-height: 320px; */
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -890,6 +896,7 @@ section {
   background-color: #ff7f5d;
 }
 
+
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
@@ -931,6 +938,9 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+  background-color: rgb(245, 239, 239);
+}
 .portfolio #portfolio-flters {
   list-style: none;
   margin-bottom: 20px;
@@ -1634,9 +1644,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-#footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #ff9377;
-}
+#footer .footer-top .footer-newsletter form input
 
 #footer .footer-top .social-links {
   margin-top: 30px;
