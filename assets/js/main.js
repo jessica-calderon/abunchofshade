@@ -2,7 +2,7 @@
 
 /* Sending Email from Contact Section */
 (function () {
-  emailjs.init("aRO8N19pDBgGnZSmm");
+  emailjs.init("b_jI0X13BX8z6RCOG");
 })();
 /* emailJS stuff */
 function sendmail() {
@@ -26,7 +26,7 @@ function sendmail() {
   };
 
   emailjs
-    .send("service_94go286", "template_2fnrdw5", contactParams)
+    .send("service_qx8gqee", "template_nics4ey", contactParams)
     .then(function (res) {})
 
     .then(
