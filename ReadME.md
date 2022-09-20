@@ -15,7 +15,7 @@
 A business website for A Bunch of Shade, a San Antonio based solar shade installation company. 
 
 ## [Languages](#table-of-contents)
-HTML, Bootstrap/CSS, JavaScript, PHP
+HTML, Bootstrap/CSS, JavaScript
 
 ## [Usage](#table-of-contents)
 Clients and potential clients can find more information on A Bunch of Shade's business. Including, about the business, services, testimonials, portfolio, and contact information.
