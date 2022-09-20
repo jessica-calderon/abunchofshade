@@ -25,11 +25,11 @@ Clients and potential clients can find more information on A Bunch of Shade's bu
 Thank you for your interest in contributing to this project, however, I am currently not accepting third party contributions.
 
 ## [Installation](#table-of-contents)
-Visit 
+Visit https://www.abunchofshade.com
 
 ## [Application Preview](#table-of-contents)
-Click the image to see the live demo.
-<a href='n' alt='preview video link'><img src='n'></a>
+Click the image to see the live website.
+<a href='https://www.abunchofshade.com' alt='A Bunch of Shade'><img src='./assets/img/abunchofshade.gif'></a>
 
 ## [Questions](#table-of-contents)
 Questions? Please contact me at the following links: <br>
