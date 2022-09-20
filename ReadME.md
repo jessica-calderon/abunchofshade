@@ -1,5 +1,5 @@
 # A Bunch of Shade
-![badge](https://img.shields.io/badge/Made%20with%20%E2%99%A5%20by%20-Jessica%20E.%20Calderon-blueviolet)
+[![badge](https://img.shields.io/badge/Made%20with%20%E2%99%A5%20by%20-Jessica%20E.%20Calderon-blueviolet)](https://github.com/jessica-calderon)
 ## Table of Contents
 * [Description](#description)
 * [Built With](#languages)
