@@ -1,9 +1,31 @@
-/**
-* Template Name: Valera - v4.8.1
-* Template URL: https://bootstrapmade.com/valera-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
+/* Sending Email from Contact Section */
+(function () {
+  emailjs.init("aRO8N19pDBgGnZSmm");
+})();
+
+function sendmail() {
+  event.preventDefault();
+  let fullName = document.getElementById("name").value;
+  let userEmail = document.getElementById("email").value;
+  let userSubject = document.getElementById("subject").value;
+  let userNumber = document.getElementById("number").value;
+  let userTopic = document.getElementById("topic").value;
+  let userMessage = document.getElementById("message").value;
+
+      var contactParams = {
+          from_name: fullName,
+          from_email: userEmail,
+          from_number: userNumber,
+          subject: userSubject,
+          topic: userTopic,
+          message: userMessage
+      };
+
+      emailjs.send('service_94go286', 'template_2fnrdw5', contactParams).then(function (res) {})
+}
+// End email.js section
+
 (function() {
   "use strict";
 

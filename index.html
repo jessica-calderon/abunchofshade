@@ -354,30 +354,44 @@
             </div>
 
           </div>
-
+<!-- ==================== CONTACT FORM ====================== -->
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="fullname" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
+                <div class="form-group mt-1 mt-md-0">
+                  <input type="tel" class="form-control" name="number" id="number" placeholder="Your Phone Number">
+                </div>
               </div>
-              <div class="form-group mt-3">
+              <div class="form-group mt-1 mt-md-0">
+              <label for="topic">Let Us Know Why You're Reaching Out!</label><br>
+              <select name="topic" id="topic" class="form-select" required>
+                <option value="" disabled selected>Select your option</option>
+                <option value="Solar Screens">Solar Screens</option>
+                <option value="Roller Shades">Roller Shades</option>
+                <option value="Enclosed Patios">Enclosed Patios</option>
+                <option value="Screened Doors">Screened Doors</option>
+                <option value="Something Else">Something Else</option>
+              </select>
+            </div>
+              <div class="form-group mt-1">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Loading</div>
+                <!-- <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button class="btn-block" type="submit">Send Us a Message</button></div>
+              </div> -->
+              <div class="text-center"><button class="btn-block" onclick="sendmail()" type="submit">Send Us A Message</button></div> 
             </form>
 
           </div>
@@ -448,10 +462,11 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Main JS File -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
   <script src="assets/js/main.js"></script>
+
 
 </body>
 
