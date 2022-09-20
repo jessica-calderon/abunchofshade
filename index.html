@@ -395,12 +395,21 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" id="message" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
+              <!-- Message Send Button -->
               <div class="my-3">
-                <!-- <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div> -->
               <div class="text-center"><button class="btn-block" onclick="sendmail()" type="submit">Send Us A Message</button></div> 
+              <!-- Message Sent Alert (display on successful message send) -->
+              <div class="alert alert-success collapse mt-3" role="alert" id="messageSent">
+                <span>
+                <p>Message Sent Successfully! We'll be in touch soon, thanks!</p>
+                </span>
+              </div>
+              <!-- Error Sending Message Alert (display on error) -->
+              <div class="alert alert-error collapse mt-3" role="alert" id="messageError">
+                <span>
+                <p>Oops..There was an error sending your message. Please try again, give us a call, or send us an email! Thanks!</p>
+                </span>
+              </div>
             </form>
 
           </div>
