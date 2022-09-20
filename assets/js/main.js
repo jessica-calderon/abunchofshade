@@ -10,6 +10,7 @@ function sendmail() {
   let userEmail = document.getElementById("email").value;
   let userSubject = document.getElementById("subject").value;
   let userNumber = document.getElementById("number").value;
+  let contactPref = document.getElementById("contact_pref").value;
   let userTopic = document.getElementById("topic").value;
   let userMessage = document.getElementById("message").value;
 
@@ -18,6 +19,7 @@ function sendmail() {
           from_email: userEmail,
           from_number: userNumber,
           subject: userSubject,
+          contactPreference: contactPref,
           topic: userTopic,
           message: userMessage
       };
